@@ -25,15 +25,14 @@ const AppRouter = () => {
                <Route path="/posts" end element={<PostsPage />} />
                <Route path="/posts/:id" end element={<PostIdPage />} />            
                <Route path="about" element={<AboutPage />} />
-               <Route path="*" element={<NotFoundPage />}
-               />     
-         </Routes>
+               <Route path="*" element={<NotFoundPage />}  />     
+             </Routes>
             : 
             <Routes>
                <Route path="/login" element={<LoginPage />} />
                <Route path="*" element={<LoginPage />}
             />     
-         </Routes>
+            </Routes>
          }
       </>
 

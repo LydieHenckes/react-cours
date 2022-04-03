@@ -13,7 +13,7 @@ const App = () => {
   useEffect(() => {
     if (localStorage.getItem('auth')) {
       setIsAuth(true);
-    }
+    } 
     setIsLoading(false);
   });
 

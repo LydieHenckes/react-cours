@@ -13,9 +13,9 @@ const Navbar = () => {
 	return (
       <div className="navbar">
         <MyButton onClick = {logout}>Se déconnecter</MyButton>
-        <div className="navbar__links">
-            <Link to = "/about">Acceuil</Link>
-            <Link to = "/posts">Posts</Link>
+        <div >
+            <Link className="navbar__links" to = "/about">Acceuil</Link>
+            <Link className="navbar__links" to = "/posts">Posts</Link>
         </div>
       </div>
 
